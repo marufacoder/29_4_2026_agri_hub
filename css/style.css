@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.nav-item{
+    margin-left: 45px;
+}
+.nav-item a{
+    color: aliceblue;
+    background-color: green;
+    transition: 0.5s ease;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.nav-item a:hover{
+    color: brown;
+    background-color: antiquewhite;
+    transform: translateY(-5px);
+}
+.nav-item a:active{
+    color: antiquewhite;
+}
+.text-justify{
+    text-align: justify;
+}
+.card{
+    height: 200px;
+    object-fit: cover;
+    transition: 0.5s ease;
+    overflow: hidden;
+}
+.card:hover{
+    border: 1px solid green;
+    /* transform: scale(1.1); */
+        transform: translateY(-5px);
+}
+.card-pest{
+    height: 200px;
+    object-fit: cover;
+}
